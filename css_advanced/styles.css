@@ -1,0 +1,26 @@
+body
+{
+    display:flex;
+    flex-direction: column;
+}
+
+body header
+{
+    display:flex;
+    align-items: space-between;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px ;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    
+
+
+
+}
+.body .main .First-div
+{
+    height: 1093px;
+}
