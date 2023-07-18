@@ -1,10 +1,11 @@
+
 body
 {
-    display:flex;
-    flex-direction: column;
-}
+    padding: 0;
+            margin: 0;
+            font-family: 'Source Sans Pro' ;}
 
-body header
+.header
 {
     display:flex;
     align-items: space-between;
@@ -13,6 +14,11 @@ body header
     padding-right: 200px ;
     flex-direction: row;
     justify-content: space-between;
+    background-color: transparent;
+    text-decoration: none;
+    position: relative;
+    z-index: 1000;
+    color: white;
 
 
     
@@ -20,7 +26,290 @@ body header
 
 
 }
+.nav1
+{
+    display: flex;
+    gap: 30px;
+    
+
+}
+.nav1 a
+{
+    color: white;
+    text-decoration: none;
+}
 .body .main .First-div
 {
-    height: 1093px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1240px;
+    top: -121px;
+    background-image: url(assets/Object.png);
+    background-position: center;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    gap: 150px;
+    
+    
 }
+.First-section h1
+{
+display: flex;
+font-size: 120px;
+font-weight: bold;
+color: white;
+}
+.First-section p
+{
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+.DivinDiv
+{
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+    position: relative;
+
+}
+.Holder
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -120px;
+}
+.button
+{
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    border-radius: 32px;
+    color: white;
+    position: relative;
+    top: 15px;
+    
+    
+    
+}
+
+.Firdiv-child
+{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: space-between;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 450px;
+    gap: 200px;
+    margin: 0 auto;
+    flex-basis: 0;
+    flex-wrap: wrap;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+}
+.Header_Sec
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -100px;
+    top: -100px;
+
+}
+.hone
+{
+    display: flex;
+    color:#C271FF;
+    font-weight: bold;
+}
+.htwo
+{
+    display: flex;
+    color: white;
+    font-weight: 50;
+    
+}
+.Firdiv-sec p
+{
+    display: flex;
+    font-weight: lighter;
+    font-style: italic;
+}
+.Firdiv-sec h1
+{
+    display: flex;
+    font-weight: bold;
+}
+.quote
+{
+    display: flex;
+    height: 392px;
+    background-color: #C271FF;
+    position: relative;
+    top: -121px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.quoteq
+{display: flex;
+flex-direction: column;
+width: 530px;
+color: white;}
+.popvid
+{
+    display: flex;
+    height: 624px;
+    justify-content: center;
+
+}
+.popvid2
+{
+    display: flex;
+    height: 420px;
+    width: 1238px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.poptut
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.headpop
+{
+ display: flex;
+ color:#C271FF;
+ font-weight: bold;
+}
+.sectionh
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-weight: lighter;
+}
+.member
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #071629;
+    height: 502px;
+    gap: 50px;
+}
+.lorem
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 180px;
+}
+.Free
+{
+    display: flex;
+    color: #C271FF;
+}
+.freesec
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+}
+.assets1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+}
+.Allcenter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 858px;
+}
+
+.faq
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 858px;
+    width: 920px;
+    gap: 50px;
+    
+}
+.faq1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+.faq section h1
+{
+    display: flex;
+    font-weight: lighter;
+    font-size: 60px;
+}
+.faq1 section h4
+{
+    display: flex;
+    justify-content: center;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 249px;
+    background-color: #071629;
+    justify-content: space-between;
+    color: white;
+    padding-top:180px;
+    padding-bottom: 20px;
+}
+.footer1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1000px;
+
+
+
+}
+.nav2
+{
+    display: flex;
+    gap: 30px;
+}
+
+
